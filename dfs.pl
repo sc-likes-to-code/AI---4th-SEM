@@ -26,9 +26,3 @@ dfs(Path,Node,Sol):-
     graph(Node,Node1),
     not(member(Node1,Path)),
     dfs([Node|Path],Node1,Sol).
-
-Sample Test Case:
-[1]  ?- solve(a,Sol).
-Sol = [f, c, a] ;
-Sol = [g, c, a] ;
-false.
