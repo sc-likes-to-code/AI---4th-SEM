@@ -49,8 +49,3 @@ extend(_,[]).
 conc([],L2,L2).
 conc([X|L1],L2,[X|L3]):-conc(L1,L2,L3).
 
-Sample Test Case:
-?- solve1(a,Solution).
-Solution = [f, c, a] ;
-Solution = [g, c, a] ;
-false.
