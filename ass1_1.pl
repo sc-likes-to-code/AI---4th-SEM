@@ -7,13 +7,16 @@ dinner(pizza).
 
 meal(X):- food(X).
 
+
+
+
 %outputs:
-?- food(pizza).
-true.
+%?- food(pizza).
+%true.
 
-?- meal(X),lunch(X).
-X = sandwich ;
-false.
+%?- meal(X),lunch(X).
+%X = sandwich ;
+%false.
 
-?- dinner(sandwich).
-false.
+%?- dinner(sandwich).
+%false.
