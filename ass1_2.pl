@@ -11,3 +11,11 @@ teaches(juniper,csc134).
 professor(X,Y):- teaches(X,C), studies(Y,C).
 
 
+%output:
+
+%?- studies(charlie,X).
+%X = csc135.
+
+%?- professor(kirke,X).
+%X = charlie ;
+%X = olivia.
